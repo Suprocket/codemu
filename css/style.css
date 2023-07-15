@@ -1,3 +1,7 @@
-.eee.bbb .bbb{
-	color: red;
+.xxx .kkk, #eee h2, .eee h2.zzz {
+	text-align: center;
+	color:red;
+}
+.eee h2.zzz{
+	color:aqua;
 }
