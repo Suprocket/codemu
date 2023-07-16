@@ -1,3 +1,8 @@
-p[title^="привет"]{
+a:link, a:visited, a:active{
+color: blue;
+text-decoration: none;
+}
+a:hover{
 	color: red;
+	text-decoration: underline;
 }
