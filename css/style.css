@@ -1,3 +1,6 @@
-.fff h2.bbb{
-	color: aqua;
+#block {
+	color: red;
+}
+.text {
+	color: green; /* применится этот цвет */
 }
