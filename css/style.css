@@ -1,10 +1,3 @@
-li{
-	border: 1px solid red;
-	width: 100px;
-	margin-bottom: 10px;
-
-}
-
-li:empty{
-	border:1px solid blue;
+p:only-of-type{
+	color: red;
 }
