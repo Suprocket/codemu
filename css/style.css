@@ -1,6 +1,10 @@
-.block a.zzz {
-	color: red;
+li{
+	border: 1px solid red;
+	width: 100px;
+	margin-bottom: 10px;
+
 }
-.block a.zzz:hover {
-	text-decoration: none;
+
+li:empty{
+	border:1px solid blue;
 }
