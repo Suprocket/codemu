@@ -1,10 +1,5 @@
-.parent{
-	border: 1px dashed #3c15ec;
-	width: 300px;
+p{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000000;
 }
-.child{
-	border: 1px solid #ec1515;
-	margin: 30px;
-	height: 300px;
-}
-
