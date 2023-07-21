@@ -1,12 +1,25 @@
-.parent {
-	padding: 10px 0;
-	border: 1px solid red;
-	text-align: right;
-}
-.child {
-	text-align: center;
+.block{
 	width: 100px;
-	padding: 10px;
-	border: 1px solid green;
-	display: inline-block;
+	height: 100px;
+	border: 1px solid;
+	position: absolute;
+}
+
+.block-red{
+	border-color: red;
+	background-color: red;
+	top:50px;
+	left:50px;
+}
+.block-green{
+	border-color: green;
+	background-color: green;
+	top:120px;
+	left:120px;
+}
+.block-blue{
+	border-color: blue;
+	background-color: blue;
+	top:180px;
+	left:180px;
 }
