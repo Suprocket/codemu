@@ -1,34 +1,8 @@
-.block{
-	border: 1px solid;
-}
-
-.parent{
-	margin: auto;
-	top: 20px;
-	position: relative;
-	width: 800px;
-	height: 500px;
-	background-color: blue;
-	border-color: blue;
-}
-
-.child{
-	
+.elem{
 	position: absolute;
-	background-color: white;
-	border-color: white;
+	border: 1px solid black;
 	top: 100px;
-	left: 100px;
-	width: 100px;
-	height: 100px;
-}
-
-.child-2{
-	position: absolute;
-	background-color: white;
-	border-color: white;
-	bottom: 100px;
-	right: 100px;
-	width: 100px;
-	height: 100px;
+	right: 200px;
+	bottom: 50px;
+	left:50px;
 }
