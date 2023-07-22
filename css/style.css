@@ -1,27 +1,23 @@
-li{
-	list-style-type: none;
+.block{
+	position: absolute;
+	width: 200px;
+	height: 200px;
 }
 
-a{
-	color: #fff;
-	text-decoration: none;
-	font-size: 20px;
+.first-block{
+	top: 50px;
+	left: 50px;
+	background: red;
+	z-index: 1;
 }
-
-.nav{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 50px;
-	background-color: blueviolet;
-	text-align: center;
-	border: 1px solid blueviolet;
+.second-block{
+	top: 150px;
+	left: 150px;
+	background: green;
+	z-index: -1;
 }
-.section{
-	margin: 80px auto;
-	text-align: justify;
-	width: 600px;
-	border: 1px solid blue;
-	padding: 20px;
+.third-block{
+	top: 250px;
+	left: 250px;
+	background: blue;
 }
