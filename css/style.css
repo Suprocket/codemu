@@ -1,23 +1,14 @@
-.block{
-	position: absolute;
-	width: 200px;
-	height: 200px;
+.parent{
+	margin:20px auto;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column-reverse;
+	width: 1000px;
+	height: 800px;
+	padding: 10px;
 }
-
-.first-block{
-	top: 50px;
-	left: 50px;
-	background: red;
-	z-index: 1;
-}
-.second-block{
-	top: 150px;
-	left: 150px;
-	background: green;
-	z-index: -1;
-}
-.third-block{
-	top: 250px;
-	left: 250px;
-	background: blue;
+.child{
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
 }
