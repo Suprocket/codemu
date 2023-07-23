@@ -1,14 +1,19 @@
-.parent{
-	margin:20px auto;
-	border: 1px solid black;
-	display: flex;
-	flex-direction: column-reverse;
-	width: 1000px;
-	height: 800px;
-	padding: 10px;
+img{
+    width: 100px;
+    height: 100px;
 }
-.child{
-	width: 100px;
-	height: 100px;
-	border: 1px solid red;
+
+.div{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.img-left{
+    float: left;
+}
+
+.img-right{
+float: right;
 }
