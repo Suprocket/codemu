@@ -1,11 +1,11 @@
 .wrapper{
-    border: 1px solid #363636;
+    border: 1px solid #f18339;
     margin: 30px auto;
     width: 800px;
 }
 
 .nav{
-    background-color: #363636;
+    background-color: #f18339;
 }
 
 .list{
@@ -16,7 +16,7 @@
 }
 
 .list a{
-    font: 1em "Fira Sans", sans-serif;
+    font: 1.1em "Fira Sans", sans-serif;
 }
 
 .list-item{
@@ -28,24 +28,61 @@
     height: 50px;
     padding-top: 15px;
     text-align: center;
+    font-weight: 600;
 }
 
 .list-item:hover, li a.active{
     background: #fff;
-    color: #363636;
+    color: #f18339;
 }
 .main-title{
-    color: #363636;
+    color: #6d3c1b;
     font: 2em "Fira Sans", sans-serif;
     text-align: center;
     margin: 20px 0px;
 }
 .main-text{
-    padding: 10px;
-    text-align: justify;
+    color: #c76d30;
+    padding: 5px;
+    text-align: start;
+    line-height: 200%;
+    text-indent: 5%;
 }
 
-.main-text .blue{
-    color: blue;
+.main-text .contrasted{
+    color: #c76d30;
     font-weight: 600;
+}
+
+.main-text .contrasted:hover{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+h2.main-title{
+    font-size: 1.5em;
+}
+
+.footer{
+    margin: 10px auto;
+    width: 800px;
+}
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0px;
+}
+.footer-nav{
+    padding: 10px;
+    color: #6d3c1b;
+    font-weight: 600;
+    text-decoration: none;
+}
+.footer-nav:hover{
+    color: #000;
+    font-weight: 600;
+    text-decoration: underline black;
 }
