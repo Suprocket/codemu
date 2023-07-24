@@ -4,9 +4,9 @@
     margin: 0 auto;
     width: 1000px;
     height: 400px;
-    padding: 10px;
     display: flex;
     flex-direction: column-reverse;
+    justify-content: flex-end;
 }
 .child{
     text-align: center;
