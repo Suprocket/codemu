@@ -5,11 +5,16 @@
     width: 1000px;
     height: 400px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items:stretch;
+    align-items: flex-start;
 }
 .child{
+    width: 100px;
+    height: 80px;
     text-align: center;
     border: 1px solid green;
+}
+.self{
+    align-self: center;
 }
