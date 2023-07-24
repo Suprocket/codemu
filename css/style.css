@@ -1,27 +1,14 @@
-div{
-    width: 600px;
-    height: 400px;
+.parent{
     border: 1px solid black;
-    margin: 0 auto;
     padding: 10px;
     text-align: justify;
+    margin: 0 auto;
+    width: 600px;
 }
-
-
-p{
-    margin-left: 10px;
-
-}
-
-.img-1{
-    float: left;
-    margin-left: 10px;
-    margin-right: 20px;
-}
-
-.img-2{
-float: right;
-margin-left: 20px;
-margin-right: 10px;
-margin-top: 20px;
+.child{
+    float: right;
+    width: 100px;
+    height: 80px;
+    border: 1px solid black;
+    margin: 10px 0px 10px 10px;
 }
