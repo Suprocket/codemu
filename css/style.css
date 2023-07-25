@@ -15,7 +15,7 @@
 }
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 .aside{
     padding: 20px;
@@ -28,7 +28,7 @@
     width: 80%;
     height: 600px;
     border: 1px solid black;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 .footer{
     padding: 20px;
