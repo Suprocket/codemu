@@ -1,14 +1,21 @@
-.block{
-    width: 400px;
-    height: 300px;
-    border: 1px solid red;
+#text{
+    box-sizing: border-box;
+    margin: 30px;
+    width: 200px;
+    transition: all 1s ease-out;
+    border-radius: 2px;
+    border: 1px solid black;
+    outline: none;
 }
 
-.block:hover{
-    transition-property: all;
-    width: 600px;
-    height: 400px;
-    transition: 0.5s ease-in;
-    background-color: red;
-    color: white;
+#text:hover, #text:focus, #text:active, #text:link{
+    transition: all 1s ease-out;
+    border: 1px solid #0000ff;
+    color: #0000ff;
+    width: 500px;
+    box-shadow: none;
+}
+
+#text:hover::placeholder, #text:focus::placeholder{
+    color: #0000ff;
 }
