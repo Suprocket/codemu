@@ -1,21 +1,26 @@
-#text{
-    box-sizing: border-box;
-    margin: 30px;
-    width: 200px;
-    transition: all 1s ease-out;
-    border-radius: 2px;
-    border: 1px solid black;
-    outline: none;
+.parent	{
+	display: flex;
+	width: 700px;
+	height: 200px;
+	border: 1px solid red;
 }
-
-#text:hover, #text:focus, #text:active, #text:link{
-    transition: all 1s ease-out;
-    border: 1px solid #0000ff;
-    color: #0000ff;
-    width: 500px;
-    box-shadow: none;
+.child {
+	height: 50px;
+	border: 1px solid green;
 }
-
-#text:hover::placeholder, #text:focus::placeholder{
-    color: #0000ff;
+.elem1 {
+	width: 200px;
+	flex-grow: 0;
+}
+.elem2 {
+	width: 200px;
+	flex-grow: 0;
+}
+.elem3 {
+	width: 100px;
+	flex-grow: 1;
+}
+.elem4 {
+	width: 100px;
+	flex-grow: 1;
 }
