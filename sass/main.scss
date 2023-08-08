@@ -1,9 +1,10 @@
 $mainColor: #c53131;
 
-ul {
-	color: red;
-	
-	> li {
-		padding: 20px;
+#block {
+	.xxx {
+		&.zzz {
+			width: 300px;
+            color: $mainColor;
+		}
 	}
 }
