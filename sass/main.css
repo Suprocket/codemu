@@ -1,5 +1,6 @@
-.parent .elem1 {
-  color: #c53131;
+ul {
+  color: red;
 }
-
-/* new comm*//*# sourceMappingURL=main.css.map */
+ul > li {
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */
