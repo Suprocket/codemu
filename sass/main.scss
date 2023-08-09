@@ -1,16 +1,9 @@
-$mainColor: #c53131;
-$subcolor: blue;
+@mixin font{
+    font-size: 24px;
+    font-weight: 500;
+}
 
-
-
-.label{
-    &-success{
-        color: green;
-    }
-    &-warning{
-        color: yellow;
-    }
-    &-error{
-        color: red;
-    }
+.block{
+    @include font;
+    color: red;
 }
