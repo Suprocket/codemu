@@ -1,20 +1,9 @@
-/*
-#block {
-	width: 300px;
+.label-success {
+  color: green;
 }
-#block a:link, #block a:visited {
-	color: red;
+.label-warning {
+  color: yellow;
 }
-#block a:hover {
-	color: blue;
-}
-*/
-#block {
-  width: 300px;
-}
-#block a:link, #block a:visited {
-  color: #c53131;
-}
-#block a:hover {
-  color: blue;
+.label-error {
+  color: red;
 }/*# sourceMappingURL=main.css.map */
