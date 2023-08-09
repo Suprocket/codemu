@@ -1,5 +1,11 @@
-.block {
-  font-size: 24px;
-  font-weight: 500;
-  color: red;
+.primary {
+  color: white;
+  background-color: green;
+  box-shadow: grey;
+}
+
+.secondary {
+  color: black;
+  background-color: grey;
+  box-shadow: green;
 }/*# sourceMappingURL=main.css.map */

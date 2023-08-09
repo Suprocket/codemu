@@ -1,9 +1,17 @@
-@mixin font{
-    font-size: 24px;
-    font-weight: 500;
+@mixin common-colors($text-color, $background, $shadow) {
+	color: $text-color;
+	background-color: $background;
+	box-shadow: $shadow;
 }
 
-.block{
-    @include font;
-    color: red;
+$values: white, green, grey;
+
+.primary {
+	@include common-colors($values...);
+}
+
+$value-map: (text-color: black, background: grey, shadow: green);
+
+.secondary {
+	@include common-colors($value-map...);
 }
