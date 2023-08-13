@@ -1,23 +1,10 @@
-$color: green;
-$size: 6px;
+$size: 2px;
 
-@mixin links ($color: red, $size: 10px) {
-	color: $color;
-	font-size: $size;
-	@content;
+@function func($num) {
+	@return ($num * $size) + 20;
 }
 
-.navbar {
-	@include links {
-		border-color: $color;
-		margin: $size;
-	}
-}
-
-#active{
-	@include links{
-		background-color: $color;
-		padding-top: $size;
-		padding-bottom: $size * 2;
-	}
+.logo {
+	width: func(2);
+	height: func(4);
 }
