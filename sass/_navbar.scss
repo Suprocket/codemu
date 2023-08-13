@@ -1,4 +1,9 @@
-.link {
-	color: red;
-	font-size: 12px;
+$var: link;
+$font: font-size;
+$size: 10px;
+		
+@media #{$var} and ($font: $size) {
+	.block {
+		color: red;
+	}
 }

@@ -1,4 +1,5 @@
-#main .link {
-  color: red;
-  font-size: 12px;
+@media link and (font-size: 10px) {
+  #main .block {
+    color: red;
+  }
 }/*# sourceMappingURL=style.css.map */
