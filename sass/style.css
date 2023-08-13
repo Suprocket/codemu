@@ -1,5 +1,8 @@
-@media link and (font-size: 10px) {
-  #main .block {
-    color: red;
-  }
+.link .main-block, .active-link .main-block {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.active, .active-link {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
