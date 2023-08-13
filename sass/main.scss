@@ -1,11 +1,23 @@
-@mixin colors {
-	a#primary{
-    @content;
-  }
+$color: green;
+$size: 6px;
+
+@mixin links ($color: red, $size: 10px) {
+	color: $color;
+	font-size: $size;
+	@content;
 }
 
-@include colors{
-  color: blue;
-  text-decoration: underline;
-  text-decoration-style: wavy;
+.navbar {
+	@include links {
+		border-color: $color;
+		margin: $size;
+	}
+}
+
+#active{
+	@include links{
+		background-color: $color;
+		padding-top: $size;
+		padding-bottom: $size * 2;
+	}
 }

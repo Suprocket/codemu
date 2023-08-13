@@ -1,5 +1,14 @@
-a#primary {
-  color: blue;
-  text-decoration: underline;
-  text-decoration-style: wavy;
+.navbar {
+  color: red;
+  font-size: 10px;
+  border-color: green;
+  margin: 6px;
+}
+
+#active {
+  color: red;
+  font-size: 10px;
+  background-color: green;
+  padding-top: 6px;
+  padding-bottom: 12px;
 }/*# sourceMappingURL=main.css.map */
