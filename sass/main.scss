@@ -1,9 +1,11 @@
-@mixin super-link {
-	a {
-		@content;
-	}
+@mixin colors {
+	a#primary{
+    @content;
+  }
 }
-@include super-link {
-	color: blue;
-	text-decoration: underline;
+
+@include colors{
+  color: blue;
+  text-decoration: underline;
+  text-decoration-style: wavy;
 }

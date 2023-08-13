@@ -1,4 +1,5 @@
-a {
+a#primary {
   color: blue;
   text-decoration: underline;
+  text-decoration-style: wavy;
 }/*# sourceMappingURL=main.css.map */
