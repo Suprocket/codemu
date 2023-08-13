@@ -1,17 +1,9 @@
-@mixin common-colors($text-color, $background, $shadow) {
-	color: $text-color;
-	background-color: $background;
-	box-shadow: $shadow;
+@mixin super-link {
+	a {
+		@content;
+	}
 }
-
-$values: white, green, grey;
-
-.primary {
-	@include common-colors($values...);
-}
-
-$value-map: (text-color: black, background: grey, shadow: green);
-
-.secondary {
-	@include common-colors($value-map...);
+@include super-link {
+	color: blue;
+	text-decoration: underline;
 }
