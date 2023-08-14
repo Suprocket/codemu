@@ -1,7 +1,19 @@
-.active {
-  color: green;
+li-5 {
+  padding: 50px;
 }
 
-.not-active {
-  display: none;
+li-4 {
+  padding: 40px;
+}
+
+li-3 {
+  padding: 30px;
+}
+
+li-2 {
+  padding: 20px;
+}
+
+li-1 {
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
