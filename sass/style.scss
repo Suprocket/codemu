@@ -1,16 +1,14 @@
-.main-text {
-	font-family: Impact;
-}
-
-button {
-	@extend link;
-	font-size: 10px;
-	@extend .main-text;
-}
-
-link {
-	&:hover {
-	color: #333333;
-	background-color: #6d6d6d;
+.primary-button {
+	background-color: #3272c7;
+	@at-root {
+		.block-button {
+			color: #ff0000;
+		}
+		.content-button {
+			color: #ccb42a;
+		}
+	}
+	.warning-button {
+		border: 2px solid #232523;
 	}
 }
