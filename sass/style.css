@@ -1,8 +1,15 @@
-.link .main-block, .active-link .main-block {
-  font-weight: bold;
-  text-decoration: none;
+p, .main-text, .card, .product-card {
+  padding: 5px;
 }
 
-.active, .active-link {
-  color: red;
+.main-text, .card, .product-card {
+  font-size: 14px;
+}
+
+.card, .product-card {
+  border: 1px solid black;
+}
+
+.product-card {
+  background-color: #e1f1f1;
 }/*# sourceMappingURL=style.css.map */
