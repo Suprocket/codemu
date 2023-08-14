@@ -1,15 +1,12 @@
-p, .main-text, .card, .product-card {
-  padding: 5px;
+.main-text, button {
+  font-family: Impact;
 }
 
-.main-text, .card, .product-card {
-  font-size: 14px;
+button {
+  font-size: 10px;
 }
 
-.card, .product-card {
-  border: 1px solid black;
-}
-
-.product-card {
-  background-color: #e1f1f1;
+link:hover, button:hover {
+  color: #333333;
+  background-color: #6d6d6d;
 }/*# sourceMappingURL=style.css.map */
