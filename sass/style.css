@@ -1,19 +1,15 @@
-li-5 {
-  padding: 50px;
+.li-4 {
+  font-size: 16px;
 }
 
-li-4 {
-  padding: 40px;
+.li-3 {
+  font-size: 12px;
 }
 
-li-3 {
-  padding: 30px;
+.li-2 {
+  font-size: 8px;
 }
 
-li-2 {
-  padding: 20px;
-}
-
-li-1 {
-  padding: 10px;
+.li-1 {
+  font-size: 4px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,6 @@
-@for $var from 5 through 1 {
-	li-#{$var} {
-		padding: 10 * $var + px;
-	}
+$i: 4;
+
+@while $i > 0 {
+	.li-#{$i} { font-size: 4px * $i; }
+	$i: $i - 1;
 }
